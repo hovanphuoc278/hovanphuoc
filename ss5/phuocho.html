@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .input-name{
+            margin-left: 30px;
+            margin-top: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="mycss.css">
+</head>
+<body>
+<form action="#" method="get">
+    <h2 style="background-color: pink">Form đăng ký</h2>
+    <label for="name">Name</label>
+    <input class="input-name" id="name" type="text" name="name"><br>
+    <label>Birthday</label>
+    <input  class="input-pass" type="date" name="birthday"><br>
+    <label for="email">Email</label>
+    <input class="input-name" id="email" type="text" name="email"><br>
+    <label for="pass">Password</label>
+    <input class="input-pass" id="pass" type="password" name="pass"><br>
+    <label>Giới tính</label>
+    <input type="radio" id="male" name="gender" value="1"> <label for="male">Male</label>
+    <input type="radio" name="gender" value="0"> <label>Female</label>
+    <input type="radio" name="gender" value="-1"> <label>LGBT</label><br>
+    <label>Hobby</label>
+    <input type="checkbox" name="hobby" value="sport"><label>Sport</label>
+    <input type="checkbox" name="hobby" value="fishing"><label>Fishing</label>
+    <input type="checkbox" name="hobby" value="shopping"><label>Shopping</label><br>
+    <label>Class</label>
+    <select name="class">
+        <option value="">--Chọn lớp--</option>
+        <option value="a03">A03</option>
+        <option value="a02">A02</option>
+        <option value="a01">A01</option>
+    </select><br>
+    <label>Description</label>
+    <textarea name="des" cols="20" rows="2"></textarea><br>
+    <button type="submit">Send</button>
+    <button type="reset">Reset</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+    <input type="text" id="o1">
+    <input type="text" id="o2">
+</form>
+<button onclick="cong()">"Adition+</button>
+<button onclick="tru()">"Subtation-</button>
+<button onclick="nhan()">"MultiplicationX"</button>
+<button onclick="chia()">"Division/"</button>
+<script>
+    function cong() {
+      let input1 =  +document.getElementById("o1").value;
+      let input2 = +document.getElementById("o2").value;
+       alert (input1+input2);
+    }
+    function tru() {
+        let input1 =  +document.getElementById("o1").value;
+        let input2 = +document.getElementById("o2").value;
+        alert (input1-input2);
+    }
+    function nhan() {
+        let input1 = +document.getElementById("o1").value;
+        let input2 = +document.getElementById("o2").value;
+        alert(input1*input2);
+    }
+    function chia() {
+        let input1 =  +document.getElementById("o1").value;
+        let input2 = +document.getElementById("o2").value;
+        alert (input1/input2);}
+</script>
+
+</body>
+</html>

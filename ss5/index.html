@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center>
+    <form action="#" method="get" style="background-color: pink;padding: 1px 10px 10px 10px;width: 350px">
+        <h1 style="text-align: center">Đăng ký</h1>
+        <table>
+            <tr>
+                <td>
+                    <label for="name">Name</label>
+                </td>
+                <td>
+                    <input oninput="checkName()" type="text" id="name" name="name">
+                    <small style="color:red" id="checkName"></small>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="birthday">Birthday</label>
+                </td>
+                <td>
+                    <input type="date" id="birthday" name="birthday">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="pass" name="pass">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender</label>
+
+                </td>
+                <td>
+                    <input type="radio"  name="gender">Male
+                    <input type="radio"  name="gender">Female
+                    <input type="radio"  name="gender">LGBT
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Hobby</label>
+                </td>
+                <td>
+                    <input type="checkbox"  name="hobby">Football
+                    <input type="checkbox"  name="hobby">Shopping
+                    <input type="checkbox"  name="hobby">Fishing
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="class">Class</label>
+                </td>
+                <td>
+                    <select id="class">
+                        <option value="0">--Chọn--</option>
+                        <option value="A02">A02</option>
+                        <option value="A03">A03</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="description">Mô tả</label>
+                </td>
+                <td>
+                    <textarea id="description" rows="2" cols="25"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <button onmouseover="mouse()" style="margin-left: 50px" type="submit">Send</button>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</center>
+<script>
+</script>
+</body>
+</html>
